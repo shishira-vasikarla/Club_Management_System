@@ -1,0 +1,17 @@
+/* Style for pages with the Membership background */
+.with-background {
+    background-image: url('C:\Users\aanya\OneDrive\Desktop\Software_Project\club-management-system\src\assests\Membership.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for pages without background */
+  .no-background {
+    background: none;
+  }
+  
+  

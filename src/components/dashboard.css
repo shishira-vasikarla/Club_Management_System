@@ -1,0 +1,90 @@
+.edit-modal form input::placeholder {
+  color: #000; /* Set placeholder color to dark */
+  opacity: 0.8; /* Slight transparency to distinguish placeholder text */
+  font-style: normal; /* Optional: Remove italic styling if undesired */
+}
+
+
+h2, h3 {
+  color: #f3f0ff; /* Soft white with a hint of lavender */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Add depth for readability */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background for table */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle white border */
+  padding: 12px;
+  text-align: left;
+  color: #191818; /* Same as main text color */
+}
+
+table th {
+  background-color: rgba(75, 0, 130, 0.8); /* Deep indigo for headers */
+  color: #f3f0ff; /* Soft lavender text for contrast */
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle alternating row colors */
+}
+
+button {
+  margin-right: 5px;
+  padding: 8px 15px;
+  color: white;
+  background-color: #6a0dad; /* Rich purple for buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif; /* Consistent font */
+}
+
+button:hover {
+  background-color: #8a2be2; /* Slightly lighter purple on hover */
+}
+
+form input {
+  margin: 5px 0;
+  padding: 10px;
+  width: calc(100% - 20px);
+  border: 1px solid rgba(255, 255, 255, 0.4); /* Light border */
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2); /* Subtle transparency for inputs */
+  color: #e8e8e8; /* Text matches the theme */
+  font-family: 'Roboto', sans-serif; /* Consistent font */
+}
+
+form input::placeholder {
+  color: #1a1919; /* Light gray for placeholder text */
+  opacity: 1; /* Ensure full visibility of placeholder */
+  font-style: italic; /* Optional: Add a subtle style difference */
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: rgba(75, 0, 130, 0.95); /* Deep purple with slight transparency */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Strong shadow for focus */
+  color: #f3f0ff; /* Soft white for modal text */
+}

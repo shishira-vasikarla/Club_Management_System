@@ -1,0 +1,29 @@
+.performance-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2, h3 {
+    color: #2c3e50;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.chart-container {
+    width: 50%; /* Chart occupies half the width of the container */
+    margin: 0 auto; /* Center the chart */
+}
